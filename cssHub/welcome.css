@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    background: rgb(238,174,202);
+    background: linear-gradient(to left, #000 0%, #3c6e7150 100%),url('../images/painting-mountain-lake-with-mountain-background.jpg');
+    background-size: cover;
+    /* background-color: #0c1022 !important; */
+    font-family: 'Roboto Slab';
+}
+::selection{
+    color:#fff;
+    background-color: #3c6e71 !important;
+}
+.logo{
+    color:#3c6e71 !important;
+   font-size: 30px;
+   font-family: 'Rubik Scribble';
+   font-weight: bold;
+}
+
+.user .image{
+    width: 40px;
+    height: 40px;
+}
+
+.user .logout{  
+    color:#fff;
+    background-color:  #3c6e71d8!important;
+}
+
+main{
+    padding-top: 71px;
+    height: calc(100vh);
+    color:#fff;
+}
+main .welcome-msg{
+    font-family: 'Rubik Scribble';
+    
+}
